@@ -21,7 +21,7 @@ class LetsPlayYogaActivity : ARActivity() {
         private const val HEART_ASSET = "heart.sfb"
         private const val DHALSIM_ASSET = "dhalsim.sfb"
         private const val DUCK_ASSET =
-            "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Duck/glTF/Duck.gltf"
+            "https://raw.githubusercontent.com/progersto/ARCore_link/master/app/sampledata/models/hamburger/model.gltf"
     }
 
     private val textViewState: CompletableFuture<ViewRenderable> by lazy {
